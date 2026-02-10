@@ -157,7 +157,7 @@ Note: For Fairtable (Google/xAI/Anthropic), multiple PHD projects map to the sam
 | location_country, location_timezone | VARCHAR | |
 | languages | TEXT[] | e.g. `{"English","Spanish"}` |
 | language_proficiency | JSONB | e.g. `{"English":"native","Spanish":"fluent"}` |
-| internal_roles | TEXT[] | `tasker`, `reviewer`, `team_lead` |
+| internal_roles | TEXT[] | `tasker`, `reviewer` |
 
 ### `assignments`
 | Column | Type | Description |

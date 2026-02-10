@@ -347,7 +347,7 @@ def generate_assignments(rng, projects, taskers, scale_factor):
                 removal_reason = rng.choice(REMOVAL_REASONS)
                 status = "removed"
 
-            # Roles distribution: 70% tasker, 20% tasker+reviewer, 8% reviewer, 2% tasker+team_lead
+            # Roles distribution: 70% tasker, 20% tasker+reviewer, 8% reviewer, 2% tasker+reviewer
             role_roll = rng.random()
             if role_roll < 0.70:
                 roles = ["tasker"]
@@ -356,7 +356,7 @@ def generate_assignments(rng, projects, taskers, scale_factor):
             elif role_roll < 0.98:
                 roles = ["reviewer"]
             else:
-                roles = ["tasker", "reviewer"]  # team_lead stored in taskers.internal_roles
+                roles = ["tasker", "reviewer"]
 
             assignments.append({
                 "id": assignment_id,

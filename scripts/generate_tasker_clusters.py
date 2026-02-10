@@ -49,7 +49,7 @@ STREET_NAMES = [
 
 EMAIL_DOMAINS = ["gmail.com"] * 4 + ["outlook.com"] * 2 + ["yahoo.com", "protonmail.com", "icloud.com", "hotmail.com"]
 
-INTERNAL_ROLES = ["{tasker}"] * 6 + ["{tasker,reviewer}"] * 2 + ["{reviewer}", "{tasker,team_lead}", None]
+INTERNAL_ROLES = ["{tasker}"] * 6 + ["{tasker,reviewer}"] * 2 + ["{reviewer}", "{tasker}", None]
 
 used_emails = set()
 next_id = 3533

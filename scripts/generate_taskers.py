@@ -449,7 +449,7 @@ INTERNAL_ROLES_OPTIONS = [
     "{tasker,reviewer}",
     "{tasker,reviewer}",
     "{reviewer}",
-    "{tasker,team_lead}",
+    "{tasker}",
     None,
 ]
 
