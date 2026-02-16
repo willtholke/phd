@@ -9,18 +9,6 @@ CREATE TABLE assignments (
     removal_reason TEXT
 );
 
--- Seed assignments (~40, matching tasker subdomains to project subdomains)
--- Project 1: Llama-RLHF-v4 (Meta) - subdomain_ids {1,2,3} - SWE General, AI/ML, Full Stack
--- Project 2: Llama-Safety-Review (Meta) - subdomain_ids {1,6,37} - SWE General, Security, Criminal Law
--- Project 3: Helios-CodeReview-pass2 (OpenAI) - subdomain_ids {1,5,9} - SWE General, Backend, Database
--- Project 4: Helios-RLHF-pass3 (OpenAI) - subdomain_ids {1,2,56} - SWE General, AI/ML, NLP
--- Project 5: Gemini-MedEval-2025 (Google) - subdomain_ids {22,27,28,29} - Internal Med, Neuro, Cardio, Oncology
--- Project 6: Gemini-LegalEval-2025 (Google) - subdomain_ids {36,37,38,40,50} - Const/Crim/Civil/Contract/Tech Law
--- Project 7: Grok-SWE-Training-v2 (xAI) - subdomain_ids {1,2,3,5} - SWE General, AI/ML, Full Stack, Backend
--- Project 8: Grok-RedTeam-2025 (xAI) - subdomain_ids {1,6,50} - SWE General, Security, Tech Law
--- Project 9: Claude-SciEval-2025 (Anthropic) - subdomain_ids {80,85,88,95,98} - Bio, Genetics, Neuro, Physics, Chem
--- Project 10: Claude-HumanitiesEval-2025 (Anthropic) - subdomain_ids {106,108,129,130,131} - Econ, Psych, Phil, Hist, Lit
-
 INSERT INTO assignments (id, tasker_id, project_id, assigned_date, removed_date, status, removal_reason) VALUES
 -- Project 1: Llama-RLHF-v4 (SWE taskers: 1,2,3,4)
 (1, 1, 1, '2025-01-15', NULL, 'active', NULL),
@@ -84,5 +72,4 @@ INSERT INTO assignments (id, tasker_id, project_id, assigned_date, removed_date,
 (39, 12, 1, '2025-02-01', NULL, 'active', NULL),
 (40, 18, 6, '2025-02-10', NULL, 'active', NULL);
 
--- Reset sequence
 SELECT setval('assignments_id_seq', (SELECT MAX(id) FROM assignments));
