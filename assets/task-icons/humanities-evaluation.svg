@@ -1,4 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<path d="M8 2C8 2 5 2 3 2.5C2.44772 2.64 2 3.2 2 3.8V13C2 13.5 2.4 13.8 2.8 13.7C4.5 13.2 8 13 8 13V2Z" fill="rgb(255, 255, 255)"/>
-<path d="M8 2C8 2 11 2 13 2.5C13.5523 2.64 14 3.2 14 3.8V13C14 13.5 13.6 13.8 13.2 13.7C11.5 13.2 8 13 8 13V2Z" fill="rgb(255, 255, 255)" opacity="0.6"/>
+<!-- @license lucide-static v0.563.0 - ISC -->
+<svg
+  class="lucide lucide-book-open"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="rgb(255, 255, 255)"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 7v14" />
+  <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
 </svg>

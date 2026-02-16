@@ -1,8 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<rect x="1" y="2" width="6" height="12" rx="1" fill="rgb(255, 255, 255)"/>
-<rect x="9" y="2" width="6" height="12" rx="1" fill="rgb(255, 255, 255)" opacity="0.5"/>
-<path d="M4 5.5L3 7H5L4 5.5Z" fill="rgb(0, 0, 0)" opacity="0.4"/>
-<path d="M4 6V9" stroke="rgb(0, 0, 0)" stroke-width="0.8" opacity="0.4"/>
-<path d="M12 10.5L13 9H11L12 10.5Z" fill="rgb(0, 0, 0)" opacity="0.3"/>
-<path d="M12 10V7" stroke="rgb(0, 0, 0)" stroke-width="0.8" opacity="0.3"/>
+<!-- @license lucide-static v0.563.0 - ISC -->
+<svg
+  class="lucide lucide-arrow-up-down"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="rgb(255, 255, 255)"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m21 16-4 4-4-4" />
+  <path d="M17 20V4" />
+  <path d="m3 8 4-4 4 4" />
+  <path d="M7 4v16" />
 </svg>
